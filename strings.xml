@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (C) 2020 KangOS
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+ 
+  Translated by: Fernando Sánchez (@fernandosanch)
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="default_text">Por defecto</string>
+
+    <!-- KangOS version page strings -->
+    <string name="kangos_version_branding">KangOS</string>
+    <string name="kangos_version_device">Dispositivo</string>
+    <string name="kangos_version_cpu">CPU</string>
+    <string name="kangos_version_resolution">Resolución</string>
+    <string name="kangos_version_battery">Batería</string>
+    <string name="kangos_version_ram">RAM</string>
+    <string name="kangos_version_maintainer">Mantenedor</string>
+
+    <!-- Pocket mode -->
+    <string name="proximity_wake_title">Prevenir despertar accidental</string>
+    <string name="proximity_wake_summary">Revisa el sensor de proximidad antes de encender la pantalla</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Deslizar para tomar captura</string>
+    <string name="three_finger_gesture_summary">Deslizar con tres dedos hacia abajo para tomar captura de pantalla</string>
+
+    <!-- Kangies Settings -->
+    <string name="awaken_settings_title">Kangie\'s Lab</string>
+    <string name="awaken_dashboard_summary">Toda nuestra personalización está aquí</string>
+    <string name="visualizer_title">Visualizador en pantalla de bloqueo</string>
+    <string name="weather_title">Clima</string>
+    <string name="traffic_title">Tráfico de red</string>
+    <string name="fodiconpickerfragment_title">Seleccionar ícono de FOD</string>
+
+    <!-- SELinux Status -->
+    <string name="selinux_status">Estado de SELinux</string>
+    <string name="selinux_status_disabled">Desactivado</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+
+    <!-- Navbar length -->
+    <string name="navbar_length">Largo de pildora</string>
+    <string name="hidden_label">Oculta</string>
+    <string name="long_label">Larga</string>
+
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Haptic feedback</string>
+    <string name="back_gesture_haptic_summary">Activar la vibración al usar el gesto de volver atrás</string>
+
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Rotación</string>
+    <string name="display_rotation_summary">Seleccionar ángulos de rotación</string>
+    <string name="display_rotation_disabled">Desactivado</string>
+    <string name="display_rotation_unit">Grados</string>
+    <string name="display_rotation_category_title">Modos de rotación</string>
+    <string name="display_rotation_0_title">0 grados</string>
+    <string name="display_rotation_90_title">90 grados</string>
+    <string name="display_rotation_180_title">180 grados</string>
+    <string name="display_rotation_270_title">270 grados</string>
+
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Patrón de vibración de llamada</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Custom</string>
+    <string name="custom_vibration_pattern_title">Patrón custom</string>
+
+    <!-- Media gestures -->
+    <string name="prevent_ringing_option_mute_no_media">Mute, no media</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">Encendido (mute, no media)</string>
+
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Adaptive Playback</string>
+    <string name="adaptive_playback_disabled_summary">Desactivado</string>
+    <string name="adaptive_playback_timeout_title">Usar un tiempo de</string>
+    <string name="adaptive_playback_timeout_none">Sin tiempo</string>
+    <string name="adaptive_playback_timeout_none_summary">Encendido (sin tiempo)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 segundos</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Encendido (30 segundos)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuto</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Encendido (1 minuto)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutos</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Encendido (2 minutos)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutos</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Encendido (5 minutos)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutos</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Encendido (10 minutos)</string>
+    <string name="adaptive_playback_explainer">Adaptive playback automáticamente pausa la multimedia cuando el volumen está silenciado y continua automáticamente cuando se restaura el volumen dentro del tiempo definido.</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Sonido de captura</string>
+
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Vincular volumen de llamadas &amp; notificaciones</string>
+
+    <!-- Lock screen pattern size -->
+    <string name="lock_pattern_size_3" translatable="false">3 \u00d7 3</string>
+    <string name="lock_pattern_size_4" translatable="false">4 \u00d7 4</string>
+    <string name="lock_pattern_size_5" translatable="false">5 \u00d7 5</string>
+    <string name="lock_pattern_size_6" translatable="false">6 \u00d7 6</string>
+    <string name="lock_settings_picker_pattern_size_message">Seleccionar tamaño de patrón</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Mostrar error de patrón</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Mostrar puntos del patrón</string>
+
+    <!-- Ambient Music -->
+    <string name="pulse_on_new_tracks_title">Indicador de música de ambiente</string>
+    <string name="pulse_on_new_tracks_summary">Mostrar el Ambient Display cuando se reproduzca una nueva canción</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Desbloqueo rápido</string>
+    <string name="unlock_quick_unlock_control_summary">Desbloquear automáticamente cuando se ingrese el PIN correcto</string>
+
+   <!-- Fingerprint location message - default -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Ubica el sensor de huellas en el frente de tu teléfono</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Ubica el sensor de huellas al lado izquierdo del teléfono</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Ubica el sensor de huellas al lado derecho del teléfono</string>
+
+    <!-- Fingerprint location message - generic -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Ubica el sensor de huellas en el frente de tu teléfono</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Ubica el sensor de huellas al lado izquierdo del teléfono</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Ubica el sensor de huellas al lado derecho del teléfono</string>
+
+       <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Earbuds guardados</string>
+
+    <!-- Swipe up for face unlock -->
+    <string name="security_settings_face_require_swipe">Desliza hacia arriba para desbloquear</string>
+    <string name="security_settings_face_require_swipe_summary">Desliza hacia arriba en la pantalla de bloqueo para usar el reconocimiento facial</string>
+
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Temperatura de la batería</string>
+
+    <!-- Settings dashboard icon style -->
+    <string name="theming_settings_dashboard_icons_title">Iconos del Dashboard</string>
+    <string name="theming_settings_dashboard_icons_default2">Fondo por defecto</string>
+    <string name="theming_settings_dashboard_icons_default_accent2">Acento de fondo</string>
+    <string name="theming_settings_dashboard_icons_plain">Plano</string>
+    <string name="theming_settings_dashboard_icons_plain_accent">Acento plano</string>
+    <string name="theming_settings_dashboard_icons_default_oneplus">OnePlus</string>
+
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Completo</string>
+    <string name="back_height_high_label">Abajo</string>
+    <string name="back_options_dialog_title">Opciones</string>
+    <string name="back_height_message">Altura de la pantalla disponible como región utilizable para el gesto de atrás.</string>
+
+    <!-- Running services toggle -->
+    <string name="background_processes_settings_title">Procesos de fondo</string>
+
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Tiempo mínimo entre sonidos de notificación</string>
+    <string name="app_notification_sound_timeout_summary_template">Permitir sonidos o vibración no más de una vez cada <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Sin restricción</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 segundos</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 segundos</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minuto</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minutos</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 minutos</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minutos</string>
+
+    <string name="headsupsettings_title">Ajustes de Hads Up</string>
+
+    <!-- Battery light -->
+    <string name="battery_light_settings_pref_title">LED de carga</string>
+   <string name="battery_light_allow_on_dnd_title">LED de carga en modo No Molestar</string>
+    <string name="battery_light_low_blinking_title">Parpadear en batería baja</string>
+    <string name="battery_light_cat">Color de LED al cargar</string>
+    <string name="battery_light_low_color">Batería baja</string>
+    <string name="battery_light_medium_color">Batería media</string>
+    <string name="battery_light_full_color">Batería casi llena</string>
+    <string name="battery_light_reallyfull_color">Bateria llena (100%)</string>
+
+    <string name="less_boring_heads_up_title">Heads Up menos aburridos</string>
+    <string name="less_boring_heads_up_summary">Rápidamente desactivar heads up para todas las apps pero mantenerlos activos para las apps de teléfono y mensajes</string>
+
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Animación de gesto atrás</string>
+    <string name="back_gesture_arrow_summary">Mostrar una flecha animada al usar el gesto atrás</string>
+
+    <!-- Night Display API strings -->
+    <string name="unknown_night_light_time">Desconodio - presiona para actualizar</string>
+    <string name="night_display_location_text">\n\nLa programación desde el atardacer hasta el amanecer requiere activar los servicios de localización para obtener las horas correctas para tu ubicación</string>
+
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Smart Charging</string>
+    <string name="smart_charging_summary">Definir el máximo nivel de carga</string>
+    <string name="smart_charging_switch_title">Usar Smart charging</string>
+    <string name="smart_charging_level_title">Nivel para detenerse</string>
+    <string name="smart_charging_resume_level_title">Nivel para retomar</string>
+
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Permitir acceso a la red</string>
+    <string name="data_usage_app_restrict_all_summary">Activar el uso de red</string>
+    <string name="data_usage_app_restrict_mobile">Datos móviles</string>
+    <string name="data_usage_app_restrict_mobile_summary">Activar el uso de datos móviles</string>
+    <string name="data_usage_app_restrict_vpn">VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Activar uso de VPN</string>
+    <string name="data_usage_app_restrict_wifi">Datos Wi\u2011Fi </string>
+    <string name="data_usage_app_restrict_wifi_summary">Activar uso de datos Wi\u2011Fi</string>
+
+    <string name="fp_swipe_to_dismiss_notifications_title">Deslizar huella a la derecha o izquierda para remover notificaciones</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Para remover notificaciones, desliza a la derecha o izquiera en el sensor de huellas</string>
+
+    <!-- Custom actions -->
+    <string name="action_nothing">Ninguna acción</string>
+    <string name="action_search">Asistente</string>
+    <string name="action_voice_search">Búsqueda por voz</string>
+    <string name="action_launch_camera">Cámara</string>
+    <string name="action_flashlight">Linterna</string>
+    <string name="action_volume_panel">Panel de volumen</string>  
+    <string name="action_screen_off">Apagar pantalla</string>
+    <string name="action_screenshot">Captura de pantalla</string>
+    <string name="action_app_action">App</string>
+    <string name="active_edge_ss_app_select_title">Apretar levemente</string>
+    <string name="active_edge_ls_app_select_title">Apretar durante más tiempo</string>
+    <string name="active_edge_app_select_summary">Seleccionar app para abrir al apretar</string>
+    <string name="action_qs_panel">Panel de ajustes rápidos</string>
+    <string name="action_notifications">Notificaciones</string>
+    <string name="action_clear_notifications">Limpiar notificaciones</string>
+    <string name="action_ringer_modes">Modos de sonido</string>
+    <string name="kill_app">Terminar app en primer plano</string>
+    <string name="skip_song">Saltar canción</string>
+    <string name="prev_song">Canción anterior</string>
+    <string name="show_powermenu">Mostrar menú de apagado</string>
+    <string name="partial_screenshot">Captura de pantalla parcial</string>
+    <string name="hush_mute">Silenciar notificaciones</string>
+    <!-- Long back swipe options -->
+    <string name="navbar_gesture_tweaks_pref_title">Gestos avanzados</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Configurar gestos y definir acciones personalizadas</string>
+    <string name="navbar_gesture_tweaks_cat_title">Avanzado</string>
+    <string name="long_back_swipe_timeout_title">Tiempo de acción con deslizado largo</string>
+    <string name="left_swipe_actions_title">Acción de deslizado largo a la izquierda</string>
+    <string name="left_swipe_app_action_title">Selecccionar app para deslizado largo a la izquierda</string>
+    <string name="right_swipe_actions_title">Action de deslizado largo a la derecha</string>
+    <string name="right_swipe_app_action_title">Seleccionar app para deslizado largo a la derecha</string>
+    <string name="left_vertical_swipe_actions_title">Acción para deslizado vertical</string>
+    <string name="left_vertical_swipe_app_action_title">Seleccionar app para deslizado vertical</string>
+    <string name="right_vertical_swipe_actions_title">Acción para deslizado vertical derecho</string>
+    <string name="right_vertical_swipe_app_action_title">Seleccionar app para deslizado vertical derecho</string>
+    <string name="gesture_nav_tweaks_footer_info">Para escoger una app o actividad especifica para la acción, deja presionado en cualquier app en el selector de apps.\n\nSi se muestra el lanzador, desliza en el área de abajo de la pantalla para ejecutar la acción.</string>
+    <string name="back_swipe_extended_title">Acción de deslizado extendido</string>
+    <string name="back_swipe_extended_summary">Ejecutar acción en un deslizado más amplio (más de la mitad de la pantalla), o un deslizado en L (lo suficientemente hacia arriba)</string>
+
+    <string name="rounded_corners_title">Esquinas redondeadas</string>
+    <!-- About phone cards -->
+    <string name="storage_card_title">Almacenamiento</string>
+    <string name="storage_card_info">Ocupado</string>
+    <string name="about_device_rom_title">Kang OS</string>
+
+</resources>
